@@ -9,8 +9,8 @@
 
 @media (max-width: 500px) {
     #login {
-        /*-webkit-backdrop-filter: blur(0px);
-        backdrop-filter: blur(0px);*/
+        -webkit-backdrop-filter: blur(0px);
+        backdrop-filter: blur(0px);
         position: absolute;
         top: 0;
         left: 0;
@@ -161,8 +161,8 @@ body {
 
 #login {
     background: var(--div-background-color-15) !important;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
     padding-top: 1rem;
     position: absolute;
     left: 50%;
