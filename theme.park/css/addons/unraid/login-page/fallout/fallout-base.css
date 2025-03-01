@@ -7,6 +7,21 @@
     outline: none;
 }
 
+/* Hide the tower PC image */
+#login .case {
+    display: none;
+}
+  
+  /* Hide the login button */
+  #login .button.button--small {
+    display: none;
+}
+  
+  /* Hide the password recovery link */
+  #login a[href*="lost-root-password"] {
+    display: none;
+}
+
 @media (max-width: 500px) {
     #login {
         -webkit-backdrop-filter: blur(0px);
