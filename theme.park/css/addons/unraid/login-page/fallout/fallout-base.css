@@ -7,18 +7,23 @@
     outline: none;
 }
 
+/* Hide the NAS name */
+#login h1 {
+    display: none;
+}
+
 /* Hide the tower PC image */
 #login .case {
     display: none;
 }
   
-  /* Hide the login button */
-  #login .button.button--small {
+/* Hide the login button */
+#login .button.button--small {
     display: none;
 }
   
-  /* Hide the password recovery link */
-  #login a[href*="lost-root-password"] {
+/* Hide the password recovery link */
+#login a[href*="lost-root-password"] {
     display: none;
 }
 
