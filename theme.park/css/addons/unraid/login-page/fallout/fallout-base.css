@@ -7,10 +7,10 @@
     outline: none;
 }
 
-@media (max-width: 200px) {
+@media (max-width: 500px) {
     #login {
-        -webkit-backdrop-filter: blur(0px);
-        backdrop-filter: blur(0px);
+        /*-webkit-backdrop-filter: blur(0px);
+        backdrop-filter: blur(0px);*/
         position: absolute;
         top: 0;
         left: 0;
