@@ -185,6 +185,18 @@ body {
     color: var(--input-color-focus, white); /* Added focus text color variable with fallback */
 }
 
+/* To make the input text itself transparent (use with caution) */
+#login [type=text],
+#login [type=password] {
+    color: transparent; 
+}
+
+/* Optional: If you want a visible caret (cursor) */
+#login [type=text]:focus,
+#login [type=password]:focus {
+    caret-color: var(--input-color-focus, white); 
+}
+
 /*BUTTON*/
 #login .button {
     color: var(--button-text-color);
