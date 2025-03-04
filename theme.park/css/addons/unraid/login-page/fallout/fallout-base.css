@@ -188,7 +188,7 @@ body {
 /* To make the input text itself transparent (use with caution) */
 #login [type=text],
 #login [type=password] {
-    color: transparent; 
+    rgba(255, 255, 255, 0.3);
 }
 
 /* Optional: If you want a visible caret (cursor) */
