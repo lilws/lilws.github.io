@@ -17,10 +17,10 @@
     display: none;
 }
   
-/* Hide the login button */
+/* Hide the login button 
 #login .button.button--small {
     display: none;
-}
+}*/
   
 /* Hide the password recovery link */
 #login a[href*="lost-root-password"] {
