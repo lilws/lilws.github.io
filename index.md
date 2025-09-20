@@ -14,4 +14,4 @@
 -->
 ### Reference
 
-[TH LVS](https://levansi.edu.vn){:target="_blank" rel="noopener"}
+[Tin học](https://levansi.edu.vn){:target="_blank" rel="noopener"}
